@@ -3,13 +3,14 @@
 <extension version="1.6.0" type="template" method="upgrade" client="site">
     <name>johnsonberryfarm</name>
     <author>PDXfixIT</author>
-    <creationDate>February 24, 2012</creationDate>
-    <copyright>(C) 2012 PDXfixIT LLC. All rights reserved.</copyright>
+    <creationDate>April 2012</creationDate>
+    <copyright>(C) 2012 PDXfixIT LLC, All rights reserved.</copyright>
     <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
     <authorEmail>info@pdxfixit.com</authorEmail>
     <authorUrl>http://www.pdxfixit.com</authorUrl>
-    <version>1.0.0</version>
+    <version>3.2.19</version>
     <description>Johnson Berry Farm Joomla! Template.  Designed by Inkspot Graphics, and built by PDXfixIT.</description>
+    <legacycss>true</legacycss>
     <files>
         <filename>index.php</filename>
         <filename>component.php</filename>

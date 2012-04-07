@@ -204,7 +204,7 @@
         </field>
 		<field name="menutips" type="tips" tab="menu" panel_position="right" show_label="false"/>
         <fields name="menu" type="selectedset" label="MENU_CTRL">
-            <field name="enabled" type="toggle" default="1" label="SHOW" />
+            <field name="enabled" type="toggle" default="1" label="SHOW" enabler="true" />
             <field name="type" type="selectbox" selector="true" default="fusionmenu" label="TYPE" isbodyclass="true" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
             <fields type="set" name="fusionmenu" label="FUSION">
                 <field name="menutype" type="menus" default="mainmenu" label="MENU_SELECT" />
