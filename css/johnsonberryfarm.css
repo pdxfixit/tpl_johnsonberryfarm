@@ -1,0 +1,172 @@
+/* Johnson Berry Farm */
+@import url('http://fonts.googleapis.com/css?family=Bangers|Doppio+One');
+
+/* 
+Green: #A6C33D;
+Red: #710F3D;
+*/
+
+/* Sorry, RocketTheme... */
+#rocket { display: none; }
+
+/* Body */
+h1, h2, h3, h4, h5, h6 { margin-top: 0; }
+.rt-container, #rt-sidebar-a, #rt-sidebar-b, #rt-sidebar-c { background-color: #A6C33D; }
+h1.title, h2.title, .component-content .title { color: rgb(174,191,66); font-family: 'Doppio One', sans-serif; font-size: 26px; letter-spacing: normal; line-height: normal; text-align: center; }
+h3.title { color: #710F3D; font-family: 'Doppio One', sans-serif; font-size: 13pt; letter-spacing: normal; text-align: center; }
+h3.jbf-borders { border-top: solid #710F3D 3px; border-bottom: solid #710F3D 3px; padding: 3px; }
+body.col12.font-size-is-default { font-family: "Trebuchet MS", sans-serif; }
+body.font-size-is-default p { line-height: 17px; }
+.jbf-shadow {
+    -webkit-box-shadow: 3px 3px 3px 3px rgba(51, 51, 51, .25);
+    -moz-box-shadow: 3px 3px 3px 3px rgba(51, 51, 51, .25);
+    box-shadow: 3px 3px 3px 3px rgba(51, 51, 51, .25);
+}
+
+/* Logo */
+a#rt-logo { background: url('../images/logo/jbf.png') 0 0 no-repeat; float: left; height: 150px; position: absolute; width: 150px; }
+
+/* Header */
+div.jbf-header div.rt-block { margin: 0; padding: 0; }
+
+/* Social */
+div.customsocial { text-align: right; }
+/* div.customsocial div:first-of-type { float: left; padding: 5px 0; } */
+/* div.customsocial div:last-of-type { float: right; padding-top: 15px; } */
+div.customsocial p>img { margin-right: 4px; }
+div.customsocial p { margin: 0; }
+div.customsocial p:first-of-type { font-family: 'Trebuchet MS', sans-serif; font-weight: 500; text-align: center; }
+
+/* Menu */
+div#rt-menu div.rt-container { height: auto; }
+div.rt-menubar { border-bottom: solid #710F3D 5px; border-top: solid #710F3D 5px; margin-left: 75px; padding: 10px 0; text-align: right; }
+.menutop li a.item,
+div.rt-menubar ul.menutop li a.item { color: #710F3D; font-family: 'Bangers', cursive; font-size: 13.5pt; height: auto; }
+div.rt-menubar ul.menutop li a.item,
+div.rt-menubar ul.menutop li a.item:hover,
+div.rt-menubar ul.menutop li.active a.item,
+div.rt-menubar ul.menutop li.active a.item:hover,
+.menutop li.active.root.f-mainparent-itemfocus > .item,
+.menutop li.root.f-mainparent-itemfocus > .item { background-color: transparent; color: #710F3D; }
+div.rt-menubar ul.menutop li a.item:hover,
+div.rt-menubar ul.menutop li.active a.item:hover { color: white; }
+div.rt-menubar ul.menutop li a.item span { line-height: normal; max-width: 90px; padding: 0 10px; text-align: center; white-space: normal; }
+.menutop .fusion-submenu-wrapper { background-color: transparent; padding-top: 10px; }
+.menutop .fusion-submenu-wrapper.level3, .menutop .fusion-submenu-wrapper.level4, .menutop .fusion-submenu-wrapper.level5, .menutop .fusion-submenu-wrapper.level6 { background: #A6C33D; }
+.menutop ul li > .item { border-radius: 5px; color: #710F3D; }
+.menutop ul li > .item:hover, .menutop ul li.f-menuparent-itemfocus > .item { background: #A6C33D; color: white; }
+.fusion-submenu-wrapper ul { background: #A6C33D; border: solid 1px white; border-radius: 5px; box-shadow: 5px 5px 5px #444; }
+div.fusion-js-subs { top: 110px !important; }
+
+/* Breadcrumbs */
+div.breadcrumbs { color: black; font-size: 10pt; }
+div.breadcrumbs a { color: rgb(114,16,61); }
+
+/* Search */
+form#mod-finder-searchform button[type="submit"] { background-color: transparent; border: none !important; color: #710F3D; font-family: 'Trebuchet MS', sans-serif; font-size: 22px; font-weight: 500; margin: 0; padding: 0 0 0 5px; text-transform: lowercase; }
+form#mod-finder-searchform input[type="text"] { border: 2px solid black; border-radius: 15px; padding: 5px; }
+
+/* Feature Slideshow */
+div.sprocket-features.layout-slideshow { border-radius: 45px; box-shadow: 10px 10px 5px #444; }
+div.sprocket-features.layout-slideshow div.sprocket-features-img-container img { border-radius: 45px; }
+div.sprocket-features.layout-slideshow div.sprocket-features-pagination { bottom: auto; left: 0; margin: 0; text-align: center; top: -20px; width: 100%; }
+div.sprocket-features.layout-slideshow div.sprocket-features-pagination li { background-color: white; box-shadow: none; opacity: 1; }
+div.sprocket-features.layout-slideshow div.sprocket-features-pagination li.active { background-color: #ffcb05; }
+
+/* Recipes */
+div.sprocket-features.layout-showcase.pagination-active { margin-bottom: 0; }
+div.sprocket-features.layout-showcase.pagination-active div.sprocket-features-pagination { display: none; }
+div.sprocket-features.layout-showcase .sprocket-features-img-container img { height: auto; margin-bottom: 7px; width: auto; }
+div.sprocket-features.layout-showcase ul.sprocket-features-list li div.sprocket-features-container h2.sprocket-features-title { text-align: center; }
+div.sprocket-features.layout-showcase ul.sprocket-features-list li div.sprocket-features-container h2.sprocket-features-title a { font-size: 13px; letter-spacing: normal; line-height: normal; }
+
+/* Category List & Latest News Modules */
+ul.categories-module, ul.latestnews { list-style: none; padding: 0; text-align: center; }
+ul.categories-module li h4 { letter-spacing: normal; margin: 0; }
+ul.categories-module li h4 a, ul.latestnews li a { font-size: 17px; font-weight: normal; line-height: normal; padding: 0; }
+div#rt-main div.rt-container div#rt-sidebar-c div.rt-block ul.latestnews { text-align: left; }
+
+/* Blog Layout */
+div.rt-leading-articles>div { clear: both; }
+div.rt-blog div.items-row { clear: both; }
+
+/* RedSHOP Cart */
+div.mod_cart_top { display: none; }
+div#mod_cart_products { margin-bottom: 15px; }
+
+/* RedSHOP Category */
+.category_box_outside { border: none; margin: 10px; padding: 0; }
+div#rt-main.sa3-mb9 .category_box_outside { width: 203px; }
+.category_box_wrapper { height: auto; }
+.category_pagination { clear: both; }
+.category_product_addtocart .cart-link { float: none; margin-top: 10px; text-align: center; width: auto; }
+.category_product_addtocart .cart-link img { padding: 0; }
+.category_product_title { height: auto; }
+.category_product_title h3 a, .category_product_price span { color: black; font-family: 'Trebuchet MS', sans-serif; font-size: 13pt; }
+.category_product_image { height: auto; width: auto; }
+.category_product_price { margin-bottom: 5px; }
+
+/* RedSHOP Detail */
+div#redshopcomponent .cart-quantity { height: auto; width: auto; }
+div#redshopcomponent .product_image { border: none; }
+div#redshopcomponent .product_box_left { width: auto; }
+div#redshopcomponent .product_desc_full p:last-of-type { margin-bottom: 3px; }
+div.product_title h2.jbf-product-name { color: #A6C33D; font-family: 'Bangers', cursive; font-size: 22px; letter-spacing: normal; }
+div#___plusone_0 { margin-bottom: 10px !important; }
+
+/* RedSHOP Checkout */
+.cart_calculations td { padding: 5px; }
+div.cart-changes { float: right; margin-top: 7px; }
+div.cart-changes form { float: left; }
+div.cart-changes form:first-of-type { margin-right: 5px !important; }
+
+/* Contact Page */
+div#farmmap div.moduletable { float: right; }
+textarea#comments { width: 283px; }
+div.contactform form table tfoot tr td { text-align: right; }
+div.moduletable dl#system-message { width: 445px; }
+
+/* Farmers Markets */
+div.farmersmarkets a { text-decoration: underline; }
+div.farmersmarkets p { font-size: 10px; font-style: italic; line-height: 13px; text-align: center; }
+div.farmersmarkets-sub { float: left; width: 50%; }
+div.farmersmarkets-sub h3.title { margin-bottom: 5px; }
+
+/*
+ * Layout Styles
+ */
+
+/* Category Blog */
+.component-content .rt-article-bg { border: none; margin-bottom: 20px; padding: 0; }
+.component-content .rt-blog .rt-leading-articles h2 { margin-bottom: 8px; font-size: 24px; text-align: left; }
+.component-content .rt-blog .rt-leading-articles .rt-article { padding-bottom: 25px; }
+
+/*
+ * Regional Styles
+ */
+
+/* Top */
+div#rt-top div.rt-container div.rt-block { margin: 0; }
+div#rt-top div.rt-container div.rt-alpha div.rt-block { margin: 0 0 0 -10px; padding: 5px 5px 5px 0; }
+div#rt-top div.rt-container div.rt-omega { margin: 0; }
+div#rt-top div.rt-container div.rt-omega.rt-grid-3 { width: 240px; }
+div#rt-top div.rt-container div.rt-omega.rt-grid-4 { width: 320px; }
+div#rt-top div.rt-container div.rt-omega div.rt-block { margin: 0 -10px 0 0; padding: 5px 0; }
+
+/* Showcase */
+div#rt-showcase div.rt-container div.rt-omega div.rt-block { padding: 10px 0; margin-bottom: 0; text-align: right; }
+
+/* Feature */
+
+/* Main */
+div#rt-main div.rt-container div.rt-block { background-color: white; }
+
+/* Sidebars */
+div#rt-main.mb9-sa3 div.rt-container div.rt-grid-3 { margin-left: 0; width: 240px; }
+div#rt-main.mb9-sa3 div.rt-container div.rt-grid-9 { margin-right: 0; }
+div#rt-main div.rt-container div#rt-sidebar-c div.rt-block { background-color: #005e2b; }
+div#rt-main div.rt-container div#rt-sidebar-c div.rt-block a { color: white; font-size: 13px; padding-bottom: 5px; }
+
+/* Copyright */
+div#rt-copyright div.rt-container div.rt-block,
+div#rt-copyright div.rt-container div.rt-block a { color: #710F3D; }
