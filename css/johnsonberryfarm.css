@@ -9,14 +9,19 @@ Red: #710F3D;
 /* Sorry, RocketTheme... */
 #rocket { display: none; }
 
+/* Offline Mode */
+body#offline, body#offline div#frame { background-color: #A6C33D; }
+
 /* Body */
 h1, h2, h3, h4, h5, h6 { margin-top: 0; }
 .rt-container, #rt-sidebar-a, #rt-sidebar-b, #rt-sidebar-c { background-color: #A6C33D; }
-h1.title, h2.title, .component-content .title { color: rgb(174,191,66); font-family: 'Doppio One', sans-serif; font-size: 26px; letter-spacing: normal; line-height: normal; text-align: center; }
+h1.title, h2.title, h2.title a, h2.title a:hover, .component-content .title { color: rgb(174,191,66); font-family: 'Doppio One', sans-serif; font-size: 26px; letter-spacing: normal; line-height: normal; text-align: center; }
 h3.title { color: #710F3D; font-family: 'Doppio One', sans-serif; font-size: 13pt; letter-spacing: normal; text-align: center; }
 h3.jbf-borders { border-top: solid #710F3D 3px; border-bottom: solid #710F3D 3px; padding: 3px; }
 body.col12.font-size-is-default { font-family: "Trebuchet MS", sans-serif; }
 body.font-size-is-default p { line-height: 17px; }
+body div#rt-main div.rt-container>div.rt-block div.item-page { width: 450px; }
+body div#rt-main div.rt-container>div.rt-block div.item-page>h1.title { display: none; }
 .jbf-shadow {
     -webkit-box-shadow: 3px 3px 3px 3px rgba(51, 51, 51, .25);
     -moz-box-shadow: 3px 3px 3px 3px rgba(51, 51, 51, .25);
@@ -90,6 +95,9 @@ div#rt-main div.rt-container div#rt-sidebar-c div.rt-block ul.latestnews { text-
 div.rt-leading-articles>div { clear: both; }
 div.rt-blog div.items-row { clear: both; }
 
+/* Authorize.net Verified Merchant Seal */
+div.rt-block>div.custom>div.AuthorizeNetSeal { width: 100%; }
+
 /* RedSHOP Cart */
 div.mod_cart_top { display: none; }
 div#mod_cart_products { margin-bottom: 15px; }
@@ -115,6 +123,9 @@ div.product_title h2.jbf-product-name { color: #A6C33D; font-family: 'Bangers', 
 div#___plusone_0 { margin-bottom: 10px !important; }
 
 /* RedSHOP Checkout */
+div#redshopcomponent table.jbf-cart td, div.product_price { text-align: center; }
+div#redshopcomponent div.category_print { display: none; }
+div.product_price { text-align: center; }
 .cart_calculations td { padding: 5px; }
 div.cart-changes { float: right; margin-top: 7px; }
 div.cart-changes form { float: left; }
@@ -159,7 +170,7 @@ div#rt-showcase div.rt-container div.rt-omega div.rt-block { padding: 10px 0; ma
 /* Feature */
 
 /* Main */
-div#rt-main div.rt-container div.rt-block { background-color: white; }
+div#rt-main div.rt-container div.rt-block { background-color: white; border-radius: 25px; }
 
 /* Sidebars */
 div#rt-main.mb9-sa3 div.rt-container div.rt-grid-3 { margin-left: 0; width: 240px; }
